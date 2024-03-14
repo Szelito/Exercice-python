@@ -5,3 +5,5 @@ Le présent notebook comporte le code ainsi que des explications nécessaires po
 Concrétement, ce notebook inclus une partie sur le calcul des moyennes des ask et bid et une autre sur la création du fichier csv.
 Pour ce faire nous avons tout d'abord utilisé un flux de streaming simple comprenant les données de l'orderbook, puis dans un second temps nous avons utilisé un flux de streaming combiné pour pouvoir créer un csv complet.
 Des hypothèses ont été stipulé pour pouvoir avancer dans la tâche demandée, elles sont aussi explicitées dans le document.
+
+La tache principale a notament été le traitement des messages websocket reçus pour les futures. En effet, l'api de binance ne permet pas un orderbook et des informations sur les candles à 1000ms
